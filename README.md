@@ -3,6 +3,9 @@ Hello everyone! I've spent the past 2 months working on blackjack in a style as 
  
 [![N|Solid](https://i.gyazo.com/8d6087d72268cf1aebe5c8fec2218769.png)]()
 
+Screenshot of what I added: 
+![ss](https://arthurl.is-inside.me/ogMgGfpI.jpg)
+
 Features:
 * All networked with up to 16 players playing at the same time
 * Works with OneSync & OneSync Infinity
