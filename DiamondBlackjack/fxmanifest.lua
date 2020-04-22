@@ -4,7 +4,7 @@ game "gta5"
 
 dependency "vrp"
 
-description "DiamondBlackjack created by Robbster. vRP Edit by DocWeird"
+description "DiamondBlackjack created by Robbster. vRP Edit by Arthur"
 
 client_scripts{
 	"lib/Tunnel.lua",
