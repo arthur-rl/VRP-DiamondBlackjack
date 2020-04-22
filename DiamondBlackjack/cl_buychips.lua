@@ -77,8 +77,11 @@ AddEventHandler('buychips:updatehud+', function(amount)
 end)
 RegisterNetEvent('buychips:updatehud-')
 AddEventHandler('buychips:updatehud-', function(amount) 
-    local newAmount = playerAmountOfChips - amount
-    playerAmountOfChips = newAmount
+    if amount <= playerAmountOfChips then 
+        local newAmount = playerAmountOfChips - amount
+        playerAmountOfChips = newAmount
+    end
+
 end)
 
 Citizen.CreateThread(function() 
