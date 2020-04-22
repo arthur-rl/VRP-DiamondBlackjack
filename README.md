@@ -15,6 +15,7 @@ Notes:
 * This is not linked to any framework and works natively, to add chips/money into your framework/gamemode complete the two functions named `tryTakeChips` and `giveChips` at the top of `sv_blackjack.lua`
 * There is no splitting or double down at this time, may come in the future
 * You will need the Diamond Casino interior - There might be one on the forums somewhere, I don't know if I'm allowed to link the one I used, but just search "diamond casino fivem" in youtube. The download link is in the description in the first video.
+* This version is for [vRP](https://github.com/DunkoUK/dunko_vrp)
 
 Videos:
 https://streamable.com/fb5sg
