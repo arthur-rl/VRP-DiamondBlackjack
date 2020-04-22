@@ -33,6 +33,7 @@ RageUI.CreateWhile(1.0, true, function()
                             DeleteObject(obj)
                         end
                     end	
+                    TriggerEvent('buychips:isInCasino', false)
                 end
             end)
         end, function()
@@ -52,6 +53,7 @@ RageUI.CreateWhile(1.0, true, function()
                 end
                 if (Selected) then
                     SetEntityCoords(GetPlayerPed(-1),casinoExitVector.x,casinoExitVector.y,casinoExitVector.z)
+                    TriggerEvent('buychips:isInCasino', true)
                 end
             end)
         end, function()

@@ -2,9 +2,13 @@ fx_version 'adamant'
 
 game "gta5"
 
-description "DiamondBlackjack created by Robbster"
+dependency "vrp"
 
-client_scripts {
+description "DiamondBlackjack created by Robbster. vRP Edit by DocWeird"
+
+client_scripts{
+	"lib/Tunnel.lua",
+	"lib/Proxy.lua",
 	"src/RMenu.lua",
 	"src/menu/RageUI.lua",
 	"src/menu/Menu.lua",
@@ -17,9 +21,14 @@ client_scripts {
 	"src/menu/windows/*.lua",
 	"cl_blackjack.lua",
 	"cl_casinoteleporter.lua",
+	"cl_buychips.lua"
 }
 
-server_script "sv_blackjack.lua"
+server_scripts{
+	"@vrp/lib/utils.lua",
+	"sv_blackjack.lua",
+	"sv_buychips.lua"
+}
 
 files{
 	"peds.meta",
